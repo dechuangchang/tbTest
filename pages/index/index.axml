@@ -1,4 +1,11 @@
 <view>
   this is a blank page
   <!-- <image mode="scaleToFill" src="/image/19.png"/> -->
+  <title
+  hasLine="true"
+  iconURL="https://t.alipayobjects.com/images/T1HHFgXXVeXXXXXXXX.png"
+  type="close"
+  onActionTap="titleClose"
+>内部标题可关闭</title>
+<calendar haveYear={{true}}></calendar>
 </view>

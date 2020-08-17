@@ -1,5 +1,10 @@
 {
   "window": {
     
+  },
+  "usingComponents": {
+    "title": "mini-ali-ui-rpx/es/title/index",
+    "calendar": "mini-ali-ui-rpx/es/calendar/index"
+    
   }
 }

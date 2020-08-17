@@ -1,7 +1,23 @@
 Page({
   onLoad(query) {
     // 页面加载
-    console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    
+    my.authorize({
+      scopes: 'scope.userInfo',
+      success: (res) => {
+        my.getAuthUserInfo({
+          complete: (userInfo) => {
+            console.log(userInfo)
+            my.alert({
+              content: userInfo.nickName
+            });
+            my.alert({
+            content: userInfo.avatar
+          });
+          }
+        });
+      },
+    });
   },
   onReady() {
     // 页面加载完成

@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/shop/shop",
+    "pages/task/task",
+    "pages/user/user",
+    "pages/back/back"
   ],
   "window": {
     "defaultTitle": "My App",
@@ -9,20 +12,38 @@
   },
   "tabBar": {
     "textColor": "#dddddd",
-    "selectedColor": "#49a9ee",
-    "backgroundColor": "#000000",
+    "selectedColor": "#ed623b",
+    "backgroundColor": "#999999",
     "items": [
       {
         "pagePath": "pages/index/index",
-        "activeIcon": "image/19.png",
-        "icon": "image/19.png",
-        "name": "首页"
+        "activeIcon": "image/tabBar/index.png",
+        "icon": "image/tabBar/index.png",
+        "name": "商城首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "activeIcon": "image/19.png",
-        "icon": "image/19.png",
-        "name": "日志"
+        "pagePath": "pages/shop/shop",
+        "activeIcon": "image/tabBar/shop.png",
+        "icon": "image/tabBar/shop.png",
+        "name": "积分商城"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "activeIcon": "image/tabBar/task.png",
+        "icon": "image/tabBar/task.png",
+        "name": "积分任务"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "activeIcon": "image/tabBar/user.png",
+        "icon": "image/tabBar/user.png",
+        "name": "个人中心"
+      },
+      {
+        "pagePath": "pages/back/back",
+        "activeIcon": "image/tabBar/back.png",
+        "icon": "image/tabBar/back.png",
+        "name": "店铺首页"
       }
     ]
   }
