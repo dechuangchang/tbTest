@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "defaultTitle": "My App",
+    "titleBarColor": "#000000"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#000000",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "activeIcon": "image/19.png",
+        "icon": "image/19.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "activeIcon": "image/19.png",
+        "icon": "image/19.png",
+        "name": "日志"
+      }
+    ]
+  }
+}
