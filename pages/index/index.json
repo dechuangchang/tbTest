@@ -4,7 +4,8 @@
   },
   "usingComponents": {
     "title": "mini-ali-ui-rpx/es/title/index",
-    "calendar": "mini-ali-ui-rpx/es/calendar/index"
+    "calendar": "mini-ali-ui-rpx/es/calendar/index",
+    "integral": "/components/integral/integral"
     
   }
 }

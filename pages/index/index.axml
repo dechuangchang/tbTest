@@ -1,11 +1,20 @@
 <view>
-  this is a blank page
-  <!-- <image mode="scaleToFill" src="/image/19.png"/> -->
-  <title
-  hasLine="true"
-  iconURL="https://t.alipayobjects.com/images/T1HHFgXXVeXXXXXXXX.png"
-  type="close"
-  onActionTap="titleClose"
->内部标题可关闭</title>
-<calendar haveYear={{true}}></calendar>
+  <integral />
+  <view class="my-tags">
+    <view class="tags-header">
+      <image class="image" src="/image/tabBar/shop1.png"/>
+      <text>我的标签</text>
+    </view>
+    <view class="tags-content">
+      <view a:if="{{tags.length==0}}" class="no-data">
+        <text>暂无标签</text>
+      </view>
+      <view class="tags-box" a:else>
+        <text key="{{index}}" a:for="{{tags}}">
+          {{item}}
+        </text>
+      </view>
+    </view>
+    
+  </view>
 </view>

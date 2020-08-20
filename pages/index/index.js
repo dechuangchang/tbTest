@@ -1,28 +1,20 @@
+const app = getApp();
 Page({
+  data: {
+    tags: ['月光族','程序员','女装大佬','多才多艺'],
+  },
   onLoad(query) {
-    // 页面加载
-    
-    my.authorize({
-      scopes: 'scope.userInfo',
-      success: (res) => {
-        my.getAuthUserInfo({
-          complete: (userInfo) => {
-            console.log(userInfo)
-            my.alert({
-              content: userInfo.nickName
-            });
-            my.alert({
-            content: userInfo.avatar
-          });
-          }
-        });
-      },
-    });
+    app.getUserInfo().then(user =>
+      console.log(user,app.brandName)
+    );
   },
   onReady() {
     // 页面加载完成
+    
+    
   },
   onShow() {
+    
     // 页面显示
   },
   onHide() {

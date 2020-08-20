@@ -1,1 +1,42 @@
 /* required by usingComponents */
+.my-tags{
+  display: flex;
+  flex-direction: column;
+  
+}
+.tags-header{
+  border-bottom:1px solid #cbc9c9; 
+  height: 68rpx;
+  display: flex;
+  align-items: center;
+  
+}
+.tags-header .image{
+  width: 30rpx;
+  height: 30rpx;
+  margin:0px 30rpx;
+}
+.tags-header text{
+  color: #f05f44;
+  font-size: 26rpx;
+}
+.my-tags .no-data{
+  font-size: 26rpx;
+  line-height: 170rpx;
+  text-align: center;
+  color: #444;
+}
+.tags-box{
+  padding: 0px 10rpx;
+}
+.tags-box text{
+  padding: 6rpx;
+  font-size: 20rpx;
+  border: 1px solid #444;
+  color: #444;
+  display: inline-block;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}

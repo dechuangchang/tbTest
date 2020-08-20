@@ -1,4 +1,7 @@
 {
+  "name": "HDRWAPP",
+  "version": "0.0.1",
+  "description": "miniapp for taobao",
   "dependencies": {
     "mini-ali-ui-rpx": "^1.1.4"
   }

@@ -1,0 +1,39 @@
+.integral{
+  width: 750rpx;
+  height: 136rpx;
+  display: flex;
+  background: #e6dff1;
+  align-items: center
+}
+.my-inte,.my-lv{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.integral .image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 40rpx;
+}
+.my-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.my-info view:nth-child(1){
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #444;
+}
+.my-info view:nth-child(2){
+  font-size: 24rpx;
+  line-height: 30rpx;
+}
+.line{
+  height: 80rpx;
+  border-left:1px solid #cbc9c9; 
+}
+
+  

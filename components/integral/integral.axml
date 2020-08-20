@@ -1,0 +1,19 @@
+<view class="integral">
+  <view class="my-inte">
+    <image class="image" src="/image/tabBar/shop1.png"/>
+    <view class="my-info">
+      <view>我的积分</view>
+      <view style="color:#eb6236;">{{integral}}</view>
+    </view>
+    
+  </view>
+  <view class="line"></view>
+  <view class="my-lv">
+    <image class="image" src="/image/tabBar/shop1.png"/>
+    <view class="my-info">
+      <view>我的登记</view>
+      <view style="color:#eb6236;">{{lv}}</view>
+    </view>
+    
+  </view>
+</view>
