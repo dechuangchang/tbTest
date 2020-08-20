@@ -1,22 +1,13 @@
-import cloud from '@tbmp/mp-cloud-sdk';
-cloud.init({
-  env: 'test'
-}); 
 App({
-  cloud,
   userInfo: null,
   brandName:null,
   onLaunch(options) {
     //模板数据， 从ext.json的ext中读取
-   
-    cloud.function.invoke('getContext').then(res => {
-      console.log(res)
-      my.confirm({
-        title: `云函数 getContext`,
-        content:`${JSON.stringify(res)}`
-      }); 
-    })  
+    my.alert({
+
+      title: JSON.stringify(options),
     
+    });
     my.getExtConfig({ success: (res) => { 
       this.brandName =  res.data.brandName
     }})
