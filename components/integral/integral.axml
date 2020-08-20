@@ -1,6 +1,6 @@
 <view class="integral">
   <view class="my-inte">
-    <image class="image" src="/image/tabBar/shop1.png"/>
+    <text style="margin: 0rpx 40rpx 0rpx 0rpx;" class="icon icon-uniE6A4 text-f05"></text>
     <view class="my-info">
       <view>我的积分</view>
       <view style="color:#eb6236;">{{integral}}</view>
@@ -9,7 +9,7 @@
   </view>
   <view class="line"></view>
   <view class="my-lv">
-    <image class="image" src="/image/tabBar/shop1.png"/>
+    <text style="margin: 0rpx 40rpx 0rpx 0rpx;" class="icon icon-uniE701 text-f05"></text>
     <view class="my-info">
       <view>我的登记</view>
       <view style="color:#eb6236;">{{lv}}</view>

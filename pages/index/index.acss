@@ -4,6 +4,12 @@
   flex-direction: column;
   
 }
+.my-tags .icon{
+  font-size: 34rpx !important;
+}
+.my-tags .icon-uniE656 {
+  font-size: 24rpx !important;
+}
 .tags-header{
   border-bottom:1px solid #cbc9c9; 
   height: 68rpx;

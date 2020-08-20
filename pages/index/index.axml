@@ -2,7 +2,7 @@
   <integral />
   <view class="my-tags">
     <view class="tags-header">
-      <image class="image" src="/image/tabBar/shop1.png"/>
+      <text style="margin: 0rpx 10rpx 0rpx 30rpx;" class="icon icon-uniE68B text-f05"></text>
       <text>我的标签</text>
     </view>
     <view class="tags-content">
@@ -15,15 +15,16 @@
         </text>
       </view>
     </view>
+    
     <view class="hot-coupons">
       <view class="hot-header">
         <view>
-          <image class="image" src="/image/tabBar/shop1.png"/>
+          <text style="margin: 0rpx 10rpx 0rpx 30rpx;" class="icon icon-uniE648 text-f05"></text>
           <text style="color: #f05f44;">热门兑换</text>
         </view>
-        <view>
+        <view class="center">
           <text>更多</text>
-          <image class="image" src="/image/tabBar/shop1.png"/>
+          <text style="margin: 6rpx 10rpx 0rpx 10rpx;" class="icon icon-uniE656 "></text>
         </view>
       </view>
       <view class="vouchers-item" key="{{index}}" a:for="{{hotList}}">

@@ -5,12 +5,18 @@
   background: #e6dff1;
   align-items: center
 }
+.integral .icon{
+  font-size: 44rpx;
+}
 .my-inte,.my-lv{
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 
+}
+.text-f05{
+  color: #f05f44 !important;
 }
 .integral .image{
   width: 40rpx;
