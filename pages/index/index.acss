@@ -14,7 +14,7 @@
 .tags-header .image{
   width: 30rpx;
   height: 30rpx;
-  margin:0px 30rpx;
+  margin: 0rpx 10rpx 0rpx 30rpx;
 }
 .tags-header text{
   color: #f05f44;
@@ -39,4 +39,65 @@
   margin-left: 20rpx;
   margin-bottom: 20rpx;
   margin-top: 20rpx;
+}
+.hot-header{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10rpx 0rpx 20rpx;
+}
+.hot-header view{
+  display: flex;
+  
+  align-content: center;
+}
+.hot-header .image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.hot-header .image:nth-child(1){
+  margin: 0rpx 10rpx 0rpx 30rpx;
+}
+.hot-header .image:nth-child(2){
+  margin: 0rpx 30rpx 0rpx 10rpx;
+}
+.vouchers-item{
+  display: flex;
+  padding: 20rpx 0rpx;
+  border-top:2rpx solid #dcdcdc; 
+}
+.vouchers-item .image{
+  width: 204rpx;
+  height: 106rpx;
+  margin: 0px auto;
+}
+.vouchers-item  .vouchers-right{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width:304rpx;
+  text-align: center;
+}
+.vouchers-item  text{ 
+  font-size: 20rpx;
+  color: #888;
+}
+.vouchers-item  .vouchers-right text{ 
+  font-size: 24rpx;
+  margin-top: 30rpx;
+}
+.vouchers-item .item-line{
+  padding-top: 3rpx;
+}
+.text-f05{
+  color: #f05f44 !important;
+}
+.vouchers-item button{
+  width: 256rpx;
+  height: 56rpx;
+  border-radius:10rpx; 
+  font-size: 24rpx;
+  line-height: 56rpx;
+  margin-top: 10rpx;
+  
 }

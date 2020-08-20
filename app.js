@@ -3,14 +3,14 @@ App({
   brandName:null,
   onLaunch(options) {
     //模板数据， 从ext.json的ext中读取
-    my.alert({
+    // my.alert({
 
-      title: JSON.stringify(options),
+    //   title: JSON.stringify(options.query)+'123',
     
-    });
-    my.getExtConfig({ success: (res) => { 
-      this.brandName =  res.data.brandName
-    }})
+    // });
+    // my.getExtConfig({ success: (res) => { 
+    //   this.brandName =  res.data.brandName
+    // }})
     
     
   },

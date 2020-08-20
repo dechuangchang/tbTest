@@ -15,6 +15,52 @@
         </text>
       </view>
     </view>
-    
+    <view class="hot-coupons">
+      <view class="hot-header">
+        <view>
+          <image class="image" src="/image/tabBar/shop1.png"/>
+          <text style="color: #f05f44;">热门兑换</text>
+        </view>
+        <view>
+          <text>更多</text>
+          <image class="image" src="/image/tabBar/shop1.png"/>
+        </view>
+      </view>
+      <view class="vouchers-item" key="{{index}}" a:for="{{hotList}}">
+        <view class="vouchers-right">
+          <image class="image" src="/image/djq_03.jpg"/>
+          <text>全部商品可用</text>
+        </view>
+        <view>
+          <text style="font-size: 24rpx;font-weight: bold;">{{item.title}}</text>
+          <view style="padding-top: 20rpx;" class="item-line">
+            <text>有效期:</text>
+            <text class="text-f05">{{item.startTime}}</text>
+          </view>
+          <view class="item-line">
+            <text style="text-indent: 2em;display:inline-block">至:</text>
+            <text class="text-f05">{{item.endTime}}</text>
+          </view>
+          <view class="item-line">
+            <text>兑换价:</text>
+            <text class="text-f05">{{item.price}}</text>
+            <text>积分</text>
+          </view>
+          <view class="item-line">
+            <text class="text-f05">{{item.people}}</text>
+            <text>人已兑换</text>
+          </view>
+          <view class="item-line">
+            <text>剩余数量:</text>
+            <text class="text-f05">{{item.num}}</text>
+          </view>
+          <view class="item-line">
+            <text>距离结束:</text>
+            <text class="text-f05">{{item.overDate}}</text>
+          </view>
+          <button disabled type="ghost">积分不足</button>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
