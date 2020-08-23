@@ -20,12 +20,18 @@ App({
         resolve(this.userInfo);
       } else {
         // mock api
-        my.getAuthUserInfo({
-          success:  (userInfo) => {
-            this.userInfo =  userInfo;
-            resolve(this.userInfo);
-          }
+        my.authorize({
+          scopes: 'scope.userInfo',
+          success: (res) => {
+            my.getAuthUserInfo({
+              success:  (userInfo) => {
+                this.userInfo =  userInfo;
+                resolve(this.userInfo);
+              }
+            });
+          },
         });
+       
         
       }
     });

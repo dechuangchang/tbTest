@@ -22,7 +22,7 @@
           <text style="margin: 0rpx 10rpx 0rpx 30rpx;" class="icon icon-uniE648 text-f05"></text>
           <text style="color: #f05f44;">热门兑换</text>
         </view>
-        <view class="center">
+        <view onTap="onNavigateTo" data-url="/pages/shop/shop" class="center">
           <text>更多</text>
           <text style="margin: 6rpx 10rpx 0rpx 10rpx;" class="icon icon-uniE656 "></text>
         </view>
