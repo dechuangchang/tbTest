@@ -1,0 +1,20 @@
+.shop .page-section{
+  height: 80rpx;
+  background: #eee;
+  font-size: 26rpx;
+}
+.shop .page-section .row{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.shop .page-section .row view{
+  width: 50%;
+  text-align: center;
+}
+.shop .page-section .row .row-extra .row-arrow{
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 20rpx;
+}

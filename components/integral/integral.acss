@@ -2,7 +2,8 @@
   width: 750rpx;
   height: 136rpx;
   display: flex;
-  background: #e6dff1;
+  background: url(/image/vc_bg.png) no-repeat;
+  background-size: 750rpx 136rpx;
   align-items: center
 }
 .integral .icon{

@@ -1,3 +1,15 @@
-<view>
+<view class="shop">
   <integral num="123" />
+  <view class="page-section">
+    <picker title='积分兑换' onChange="bindObjPickerChange" value="{{type}}" range="{{types}}" range-key="name">
+      <view class="row">
+        <view class="row-title">积分兑换</view>
+        <view class="row-extra">
+          {{types[type].name}}
+          <image class="row-arrow" src="/image/san.png" mode="aspectFill" />
+        </view>
+      </view>
+    </picker>
+  </view>
+  <voucher  key="{{index}}" item="{{item}}" a:for="{{voucherList}}" />
 </view>

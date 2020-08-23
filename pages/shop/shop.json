@@ -4,7 +4,7 @@
     "titleBarColor": "#000000"
   },
   "usingComponents": {
-    "integral": "/components/integral/integral"
-    
+    "integral": "/components/integral/integral",
+    "voucher": "/components/voucher/voucher"
   }
 }

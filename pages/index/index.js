@@ -65,8 +65,10 @@ Page({
     //   title: JSON.stringify(query),
 
     // });
-    app.getUserInfo().then(user =>
-      console.log(user, app.brandName)
+    app.getUserInfo().then(user =>{
+      // console.log(user, app.brandName)
+    }
+      
     );
   },
   onReady() {

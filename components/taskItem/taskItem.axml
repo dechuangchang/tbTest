@@ -1,0 +1,10 @@
+<view class="task-item">
+  <view class="task-item-left">
+    <text>{{item.name}}</text>
+    <text>{{item.name2}}</text>
+  </view>
+  <view class="task-item-right">
+    <text>+{{item.num}}积分</text>
+    <button type="primary">马上参与</button>
+  </view>
+</view>
