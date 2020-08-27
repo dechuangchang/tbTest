@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "商城首页",
+    "titleBarColor": "#000000"
+  }
+  
+}

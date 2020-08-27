@@ -1,4 +1,0 @@
-<view class="task">
-  <integral num="666" />
-  <taskitem key="{{index}}" item="{{item}}" a:for="{{list}}"   />
-</view>

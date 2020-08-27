@@ -1,0 +1,4 @@
+<view class="page">
+  <web-view src=" https://testhd.ews.m.jaeapp.com/indexnew.php?appid={{appid}}&nick={{nickName}}"> </web-view>
+</view>
+

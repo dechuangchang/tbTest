@@ -1,0 +1,9 @@
+{
+  "name": "HDRWAPP",
+  "version": "0.0.1",
+  "description": "miniapp for taobao",
+  "dependencies": {
+    "@tbmp/mp-cloud-sdk": "^1.4.2",
+    "mini-ali-ui-rpx": "^1.1.4"
+  }
+}

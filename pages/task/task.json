@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "integral": "/components/integral/integral",
-    "taskitem": "/components/taskItem/taskItem"
-  }
-}
